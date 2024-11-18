@@ -1,0 +1,9 @@
+{
+  "namespace": "runesmithing",
+  "icon": "assets/icon.png",
+  "setup": "setup.mjs",
+  "load": [
+    "style.css",
+    "data/items.json"
+  ]
+}

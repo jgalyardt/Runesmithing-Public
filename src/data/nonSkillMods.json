@@ -1,0 +1,854 @@
+{
+    "melvorD:currencyGainFromCombat": {
+        "values": [
+            10,
+            200
+        ]
+    },
+    "melvorD:damageDealtToAllMonsters": {
+        "values": [
+            20,
+            20
+        ]
+    },
+    "melvorD:ammoPreservationChance": {
+        "values": [
+            5,
+            75
+        ]
+    },
+    "melvorD:autoLooting": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:flatMagicMinHit": {
+        "values": [
+            0.5,
+            10
+        ]
+    },
+    "melvorD:magicAccuracyRating": {
+        "values": [
+            0,
+            20
+        ]
+    },
+    "melvorD:magicMaxHit": {
+        "values": [
+            3,
+            10
+        ]
+    },
+    "melvorD:successfulCookChance": {
+        "values": [
+            2,
+            100
+        ]
+    },
+    "melvorD:perfectCookChance": {
+        "values": [
+            2,
+            4
+        ]
+    },
+    "melvorD:flatHPRegen": {
+        "values": [
+            0.3,
+            1.5
+        ]
+    },
+    "melvorD:combatLootDoublingChance": {
+        "values": [
+            -5,
+            100
+        ]
+    },
+    "melvorD:globalItemDoublingChance": {
+        "values": [
+            -5,
+            15
+        ]
+    },
+    "melvorD:nonCombatSkillXP": {
+        "values": [
+            2,
+            8
+        ]
+    },
+    "melvorD:autoBurying": {
+        "values": [
+            100,
+            100
+        ]
+    },
+    "melvorD:flatMaxHitpoints": {
+        "values": [
+            -3,
+            10
+        ]
+    },
+    "melvorD:dragonBreathDamage": {
+        "values": [
+            -30,
+            -10
+        ]
+    },
+    "melvorD:maxHitpoints": {
+        "values": [
+            -20,
+            5
+        ]
+    },
+    "melvorD:maxHit": {
+        "values": [
+            -30,
+            100
+        ]
+    },
+    "melvorD:evasion": {
+        "values": [
+            -30,
+            200
+        ]
+    },
+    "melvorD:flatAttackInterval": {
+        "values": [
+            -400,
+            400
+        ]
+    },
+    "melvorD:flatResistance": {
+        "values": [
+            -10,
+            10
+        ]
+    },
+    "melvorD:reflectDamage": {
+        "values": [
+            5,
+            40
+        ]
+    },
+    "melvorD:burnLifesteal": {
+        "values": [
+            100,
+            100
+        ]
+    },
+    "melvorD:poisonLifesteal": {
+        "values": [
+            10,
+            100
+        ]
+    },
+    "melvorD:magicCritChance": {
+        "values": [
+            3,
+            25
+        ]
+    },
+    "melvorD:meleeCritChance": {
+        "values": [
+            3,
+            25
+        ]
+    },
+    "melvorD:lifesteal": {
+        "values": [
+            -10,
+            50
+        ]
+    },
+    "melvorD:rolledReflectDamage": {
+        "values": [
+            3,
+            4
+        ]
+    },
+    "melvorD:freeProtectItem": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:magicLifesteal": {
+        "values": [
+            3,
+            10
+        ]
+    },
+    "melvorD:flatCurrencyGainFromMonsterDrops": {
+        "values": [
+            50,
+            150
+        ]
+    },
+    "melvorD:flatRegenerationInterval": {
+        "values": [
+            -7500,
+            -2000
+        ]
+    },
+    "melvorD:hitpointRegeneration": {
+        "values": [
+            -75,
+            50
+        ]
+    },
+    "melvorD:thievingStealth": {
+        "values": [
+            -75,
+            270
+        ]
+    },
+    "melvorD:prayerPointCost": {
+        "values": [
+            -75,
+            2
+        ]
+    },
+    "melvorD:flatSlayerAreaEffectNegation": {
+        "values": [
+            5,
+            35
+        ]
+    },
+    "melvorD:damageDealtToSlayerTasks": {
+        "values": [
+            2,
+            8
+        ]
+    },
+    "melvorD:bypassSlayerItems": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:rangedCritChance": {
+        "values": [
+            2,
+            25
+        ]
+    },
+    "melvorD:attackInterval": {
+        "values": [
+            -5,
+            10
+        ]
+    },
+    "melvorD:agilityObstacleCost": {
+        "values": [
+            -30,
+            -20
+        ]
+    },
+    "melvorD:summoningChargePreservationChance": {
+        "values": [
+            -100,
+            20
+        ]
+    },
+    "melvorD:townshipBuildingCost": {
+        "values": [
+            -20,
+            -15
+        ]
+    },
+    "melvorD:flatMagicMaxHit": {
+        "values": [
+            2,
+            40
+        ]
+    },
+    "melvorD:runePreservationChance": {
+        "values": [
+            2,
+            20
+        ]
+    },
+    "melvorD:allowAttackAugmentingMagic": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:flatThievingCurrencyGain": {
+        "values": [
+            20,
+            150
+        ]
+    },
+    "melvorD:summoningMaxHit": {
+        "values": [
+            5,
+            60
+        ]
+    },
+    "melvorD:autoEatThreshold": {
+        "values": [
+            5,
+            5
+        ]
+    },
+    "melvorD:autoEatEfficiency": {
+        "values": [
+            -30,
+            25
+        ]
+    },
+    "melvorD:flatPrayerPointCost": {
+        "values": [
+            -3,
+            -1
+        ]
+    },
+    "melvorD:prayerPointPreservationChance": {
+        "values": [
+            5,
+            10
+        ]
+    },
+    "melvorD:flatCurrencyGainOnEnemyHit": {
+        "values": [
+            25,
+            200
+        ]
+    },
+    "melvorD:meleeMaxHit": {
+        "values": [
+            3,
+            10
+        ]
+    },
+    "melvorD:meleeAccuracyRating": {
+        "values": [
+            3,
+            10
+        ]
+    },
+    "melvorD:rangedMaxHit": {
+        "values": [
+            3,
+            10
+        ]
+    },
+    "melvorD:rangedAccuracyRating": {
+        "values": [
+            3,
+            10
+        ]
+    },
+    "melvorD:foodHealingValue": {
+        "values": [
+            3,
+            60
+        ]
+    },
+    "melvorD:minHitBasedOnMaxHit": {
+        "values": [
+            3,
+            12
+        ]
+    },
+    "melvorD:meleeEvasion": {
+        "values": [
+            -25,
+            50
+        ]
+    },
+    "melvorD:noMiningNodeDamageChance": {
+        "values": [
+            3,
+            3
+        ]
+    },
+    "melvorD:fishingSpecialChance": {
+        "values": [
+            -100,
+            -5
+        ]
+    },
+    "melvorD:altMagicRunePreservationChance": {
+        "values": [
+            10,
+            10
+        ]
+    },
+    "melvorD:minThievingCurrencyGain": {
+        "values": [
+            5,
+            30
+        ]
+    },
+    "melvorD:flatFarmingSeedCost": {
+        "values": [
+            -1,
+            -1
+        ]
+    },
+    "melvorD:potionChargePreservationChance": {
+        "values": [
+            5,
+            15
+        ]
+    },
+    "melvorD:flatPotionCharges": {
+        "values": [
+            5,
+            10
+        ]
+    },
+    "melvorD:effectIgnoreChance": {
+        "values": [
+            5,
+            100
+        ]
+    },
+    "melvorD:flatMonsterRespawnInterval": {
+        "values": [
+            -300,
+            -200
+        ]
+    },
+    "melvorD:flatMasteryTokens": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:cookingSuccessCap": {
+        "values": [
+            -10,
+            -10
+        ]
+    },
+    "melvorD:flatResistanceAgainstSlayerTasks": {
+        "values": [
+            2,
+            2
+        ]
+    },
+    "melvorD:damageDealtToMonstersInArea": {
+        "values": [
+            3,
+            6
+        ]
+    },
+    "melvorD:doubleBoneDrops": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:flatPrayerPointsWhenHit": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:thievingAreaUniqueChance": {
+        "values": [
+            0.01,
+            0.01
+        ]
+    },
+    "melvorD:flatMeleeAccuracyBonusPerAttackInterval": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:flatMeleeStrengthBonusPerAttackInterval": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:flatResistanceAgainstRanged": {
+        "values": [
+            4,
+            4
+        ]
+    },
+    "melvorD:flatRangedAccuracyBonusPerAttackInterval": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:flatRangedStrengthBonusPerAttackInterval": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:flatResistanceAgainstMagic": {
+        "values": [
+            4,
+            4
+        ]
+    },
+    "melvorD:flatResistanceWithMagic2HWeapon": {
+        "values": [
+            8,
+            8
+        ]
+    },
+    "melvorD:flatResistanceAgainstMelee": {
+        "values": [
+            4,
+            4
+        ]
+    },
+    "melvorD:maxHitBasedOnTargetResistance": {
+        "values": [
+            0.25,
+            0.25
+        ]
+    },
+    "melvorD:halveResistance": {
+        "values": [
+            -1,
+            -1
+        ]
+    },
+    "melvorD:maxHitBasedOnResistance": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:meleeMaxHitAgainstRanged": {
+        "values": [
+            5,
+            5
+        ]
+    },
+    "melvorD:rangedMaxHitAgainstMagic": {
+        "values": [
+            5,
+            5
+        ]
+    },
+    "melvorD:lifestealBasedOnHPRegenEffectiveness": {
+        "values": [
+            5,
+            5
+        ]
+    },
+    "melvorD:magicMaxHitAgainstMelee": {
+        "values": [
+            5,
+            5
+        ]
+    },
+    "melvorD:flatResistanceAgainstBosses": {
+        "values": [
+            4,
+            4
+        ]
+    },
+    "melvorD:gpFromItemAlchemy": {
+        "values": [
+            0.3,
+            0.3
+        ]
+    },
+    "melvorD:accuracyRating": {
+        "values": [
+            -50,
+            200
+        ]
+    },
+    "melvorD:curseLifesteal": {
+        "values": [
+            10,
+            10
+        ]
+    },
+    "melvorD:allowNonMagicCurses": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:meteoriteLocationChance": {
+        "values": [
+            0.25,
+            0.25
+        ]
+    },
+    "melvorD:bleedLifesteal": {
+        "values": [
+            10,
+            40
+        ]
+    },
+    "melvorD:thievingStunAvoidanceChance": {
+        "values": [
+            15,
+            20
+        ]
+    },
+    "melvorD:additionalPerfectItemChance": {
+        "values": [
+            10,
+            20
+        ]
+    },
+    "melvorD:thievingStunInterval": {
+        "values": [
+            -25,
+            -25
+        ]
+    },
+    "melvorD:agilityPillarCost": {
+        "values": [
+            -20,
+            -20
+        ]
+    },
+    "melvorD:foodPreservationChance": {
+        "values": [
+            5,
+            5
+        ]
+    },
+    "melvorD:magicDamageBonus": {
+        "values": [
+            5,
+            5
+        ]
+    },
+    "melvorD:gemVeinChance": {
+        "values": [
+            5,
+            5
+        ]
+    },
+    "melvorD:rangedStrengthBonus": {
+        "values": [
+            5,
+            10
+        ]
+    },
+    "melvorD:bypassAllSlayerItems": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:meleeStrengthBonus": {
+        "values": [
+            5,
+            5
+        ]
+    },
+    "melvorD:fishingCookedChance": {
+        "values": [
+            10,
+            25
+        ]
+    },
+    "melvorD:meleeAccuracyMaxHitPer8Strength": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:rangedStrengthBonusPer8Ranged": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:flatResistanceWithActivePrayer": {
+        "values": [
+            4,
+            4
+        ]
+    },
+    "melvorD:magicMaxHitWithActivePrayer": {
+        "values": [
+            10,
+            10
+        ]
+    },
+    "melvorD:flatCurrencyGain": {
+        "values": [
+            100,
+            100
+        ]
+    },
+    "melvorD:mapRefinementCost": {
+        "values": [
+            -20,
+            -10
+        ]
+    },
+    "melvorD:flatPrayerPointsPerMonsterKill": {
+        "values": [
+            3,
+            3
+        ]
+    },
+    "melvorD:prayerPointPreservationChancePerPoint": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:maxHitBasedOnPrayerCost": {
+        "values": [
+            0.33,
+            0.33
+        ]
+    },
+    "melvorD:meleeStrengthBonusPer10EnemyResistance": {
+        "values": [
+            8,
+            8
+        ]
+    },
+    "melvorD:flatCurrencyGainOnEnemyHitBasedOnCombatLevel": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:flatResistancePer30Defence": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:additionalSameAreaFishChance": {
+        "values": [
+            10,
+            10
+        ]
+    },
+    "melvorD:flatBarrierDamage": {
+        "values": [
+            1,
+            1.5
+        ]
+    },
+    "melvorD:barrierSummonDamage": {
+        "values": [
+            5,
+            75
+        ]
+    },
+    "melvorD:flatBarrierSummonDamage": {
+        "values": [
+            1,
+            6
+        ]
+    },
+    "melvorD:unholyMarkOnHit": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:allowUnholyPrayerUse": {
+        "values": [
+            1,
+            1
+        ]
+    },
+    "melvorD:poisonDOTDamageTaken": {
+        "values": [
+            -50,
+            -50
+        ]
+    },
+    "melvorD:deadlyPoisonDOTDamageTaken": {
+        "values": [
+            -50,
+            -50
+        ]
+    },
+    "melvorD:rangedLifesteal": {
+        "values": [
+            10,
+            10
+        ]
+    },
+    "melvorD:unholyPrayerPointPreservationChance": {
+        "values": [
+            5,
+            5
+        ]
+    },
+    "melvorD:summoningAttackInterval": {
+        "values": [
+            -20,
+            -5
+        ]
+    },
+    "melvorD:miningGemChance": {
+        "values": [
+            100,
+            100
+        ]
+    },
+    "melvorD:craftingEnchantedUrnChance": {
+        "values": [
+            5,
+            5
+        ]
+    },
+    "melvorD:agilityObstacleItemCost": {
+        "values": [
+            -10,
+            -10
+        ]
+    },
+    "melvorD:rangedEvasion": {
+        "values": [
+            -25,
+            50
+        ]
+    },
+    "melvorD:magicEvasion": {
+        "values": [
+            -25,
+            50
+        ]
+    },
+    "melvorD:critMultiplier": {
+        "values": [
+            10,
+            30
+        ]
+    },
+    "melvorD:damageDealtToDamageTypeSlayerTasks": {
+        "values": [
+            10,
+            20
+        ]
+    },
+    "melvorD:critChance": {
+        "values": [
+            2,
+            20
+        ]
+    },
+    "melvorD:ignoreThievingDamageChance": {
+        "values": [
+            10,
+            10
+        ]
+    },
+    "melvorD:skillCostReduction": {
+        "values": [
+            -10,
+            10
+        ]
+    }
+}

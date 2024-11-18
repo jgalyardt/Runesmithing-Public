@@ -1,0 +1,63 @@
+<template id="forge-page-template">
+  <div class="content d-none" id="forge-container">
+    <div class="container position-relative">
+      <div class="row mb-4">
+        <div class="col-12">
+          <h2 class="text-center">Runesmithing Forge</h2>
+          <div class="text-center forge-used"><span class="forge-used-number">0</span>/200 items saved</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="forge-ui">
+            <div class="forge-slots">
+              <div class="forge-slot" data-slot="rune1" tabindex="0" aria-label="Rune Slot 1" role="button">Rune 1</div>
+              <div class="forge-slot" data-slot="rune2" tabindex="0" aria-label="Rune Slot 2" role="button">Rune 2</div>
+              <div class="forge-slot" data-slot="rune3" tabindex="0" aria-label="Rune Slot 3" role="button">Rune 3</div>              
+            </div>
+            <div class="forge-item-slot">
+              <div class="forge-slot" data-slot="item" tabindex="0" aria-label="Item Slot" role="button">Item</div>
+            </div>
+            <button class="forge-smith-btn btn btn-primary">Smith</button>
+          </div>
+        </div>
+      </div>
+      <svg id="forge-lines" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:0;"></svg>
+    </svg>
+    </div>
+  </div>
+
+  <div class="modal" id="forge-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Select Item</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <!-- Items will be dynamically populated here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="forge-error-modal" tabindex="-1" role="dialog" aria-labelledby="forgeErrorModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content bg-danger text-white">
+        <div class="modal-header">
+          <h5 class="modal-title" id="forgeErrorModalLabel">Error</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="text-white">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Error generating item. Please try again.
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

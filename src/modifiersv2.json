@@ -1,0 +1,383 @@
+{
+  "runeModifiers": {
+    "creloth": {
+      "slot1": {
+        "name": "melvorD:doubleBoneDrops",
+        "value": 1
+      },
+      "slot2": {
+        "name": "melvorD:globalItemDoublingChance",
+        "value": 5
+      },
+      "slot3": {
+        "name": "melvorD:allowAttackAugmentingMagic",
+        "value": 1
+      }
+    },
+    "ifneth": {
+      "slot1": {
+        "name": "melvorD:autoLooting",
+        "value": 1
+      },
+      "slot2": {
+        "name": "melvorD:autoEatThreshold",
+        "value": 5
+      },
+      "slot3": {
+        "name": "melvorD:autoBurying",
+        "value": 200
+      }
+    },
+    "omnith": {
+      "slot1": {
+        "name": "melvorD:flatMasteryTokens",
+        "value": 1
+      },
+      "slot2": {
+        "name": "melvorD:flatAttackInterval",
+        "value": -100
+      },
+      "slot3": {
+        "name": "melvorD:flatResistance",
+        "value": 1
+      }
+    },
+    "bo": {
+      "slot1": {
+        "name": "melvorD:flatMeleeStrengthBonusPerAttackInterval",
+        "value": 1
+      },
+      "slot2": {
+        "name": "melvorD:maxHitpoints",
+        "value": 3
+      },
+      "slot3": {
+        "name": "melvorD:maxHit",
+        "value": 3
+      }
+    },
+    "forp": {
+      "slot1": {
+        "name": "melvorD:flatRangedStrengthBonusPerAttackInterval",
+        "value": 1
+      },
+      "slot2": {
+        "name": "melvorD:flatMaxHitpoints",
+        "value": 3.5
+      },
+      "slot3": {
+        "name": "melvorD:damageDealtToAllMonsters",
+        "value": 3
+      }
+    },
+    "chik": {
+      "slot1": {
+        "name": "melvorD:flatRangedAccuracyBonusPerAttackInterval",
+        "value": 1
+      },
+      "slot2": {
+        "name": "melvorD:critMultiplier",
+        "value": 15
+      },
+      "slot3": {
+        "name": "melvorD:damageDealtToMonstersInArea",
+        "value": 4
+      }
+    },
+    "yuse": {
+      "slot1": {
+        "name": "melvorD:flatMeleeAccuracyBonusPerAttackInterval",
+        "value": 1
+      },
+      "slot2": {
+        "name": "melvorD:meleeStrengthBonusPer10EnemyResistance",
+        "value": 4
+      },
+      "slot3": {
+        "name": "melvorD:flatResistanceAgainstSlayerTasks",
+        "value": 1
+      }
+    },
+    "fal": {
+      "slot1": {
+        "name": "melvorD:summoningAttackInterval",
+        "value": -5
+      },
+      "slot2": {
+        "name": "melvorD:flatMonsterRespawnInterval",
+        "value": -100
+      },
+      "slot3": {
+        "name": "melvorD:minHitBasedOnMaxHit",
+        "value": 2.5
+      }
+    },
+    "lalu": {
+      "slot1": {
+        "name": "melvorD:magicCritChance",
+        "value": 5
+      },
+      "slot2": {
+        "name": "melvorD:meleeCritChance",
+        "value": 5
+      },
+      "slot3": {
+        "name": "melvorD:rangedCritChance",
+        "value": 5
+      }
+    },
+    "rako": {
+      "slot1": {
+        "name": "melvorD:flatMagicMinHit",
+        "value": 1
+      },
+      "slot2": {
+        "name": "melvorD:magicAccuracyRating",
+        "value": 10
+      },
+      "slot3": {
+        "name": "melvorD:magicMaxHit",
+        "value": 5
+      }
+    },
+    "dnal": {
+      "slot1": {
+        "name": "melvorD:ammoPreservationChance",
+        "value": 15
+      },
+      "slot2": {
+        "name": "melvorD:currencyGainFromCombat",
+        "value": 50
+      },
+      "slot3": {
+        "name": "melvorD:flatCurrencyGainFromMonsterDrops",
+        "value": 50
+      }
+    },
+    "hora": {
+      "slot1": {
+        "name": "melvorD:additionalSameAreaFishChance",
+        "value": 10
+      },
+      "slot2": {
+        "name": "melvorD:flatThievingCurrencyGain",
+        "value": 40
+      },
+      "slot3": {
+        "name": "melvorD:minThievingCurrencyGain",
+        "value": 20
+      }
+    },
+    "hak": {
+      "slot1": {
+        "name": "melvorD:thievingStealth",
+        "value": 20
+      },
+      "slot2": {
+        "name": "melvorD:thievingAreaUniqueChance",
+        "value": 0.01
+      },
+      "slot3": {
+        "name": "melvorD:autoEatEfficiency",
+        "value": 3
+      }
+    },
+    "xor": {
+      "slot1": {
+        "name": "melvorD:flatFarmingSeedCost",
+        "value": -1
+      },
+      "slot2": {
+        "name": "melvorD:flatPrayerPointCost",
+        "value": -1
+      },
+      "slot3": {
+        "name": "melvorD:flatPrayerPointsWhenHit",
+        "value": 1
+      }
+    },
+    "maar": {
+      "slot1": {
+
+        "name": "melvorD:miningGemChance",
+        "value": 5
+      },
+      "slot2": {
+        "name": "melvorD:successfulCookChance",
+        "value": 5
+      },
+      "slot3": {
+        "name": "melvorD:perfectCookChance",
+        "value": 3
+      }
+    },
+    "inia": {
+      "slot1": {
+        "name": "melvorD:flatSlayerAreaEffectNegation",
+        "value": 3
+      },
+      "slot2": {
+        "name": "melvorD:nonCombatSkillXP",
+        "value": 1
+      },
+      "slot3": {
+        "name": "melvorD:flatPotionCharges",
+        "value": 1
+      }
+    },
+    "fihs": {
+      "slot1": {
+        "name": "melvorD:potionChargePreservationChance",
+        "value": 10
+      },
+      "slot2": {
+        "name": "melvorD:prayerPointPreservationChance",
+        "value": 5
+      },
+      "slot3": {
+        "name": "melvorD:altMagicRunePreservationChance",
+        "value": 5
+      }
+    },
+    "lamba": {
+      "slot1": {
+        "name": "melvorD:fishingSpecialChance",
+        "value": 3
+      },
+      "slot2": {
+        "name": "melvorD:noMiningNodeDamageChance",
+        "value": 3
+      },
+      "slot3": {
+        "name": "melvorD:meleeEvasion",
+        "value": 5
+      }
+    },
+    "mino": {
+      "slot1": {
+        "name": "melvorD:foodHealingValue",
+        "value": 10
+      },
+      "slot2": {
+        "name": "melvorD:rangedAccuracyRating",
+        "value": 5
+      },
+      "slot3": {
+        "name": "melvorD:rangedMaxHit",
+        "value": 5
+      }
+    },
+    "nott": {
+      "slot1": {
+        "name": "melvorD:meleeAccuracyRating",
+        "value": 5
+      },
+      "slot2": {
+        "name": "melvorD:meleeMaxHit",
+        "value": 5
+      },
+      "slot3": {
+        "name": "melvorD:flatCurrencyGainOnEnemyHit",
+        "value": 20
+      }
+    },
+    "ong": {
+      "slot1": {
+        "name": "melvorD:summoningMaxHit",
+        "value": 15
+      },
+      "slot2": {
+        "name": "melvorD:combatLootDoublingChance",
+        "value": 3
+      },
+      "slot3": {
+        "name": "melvorD:runePreservationChance",
+        "value": 10
+      }
+    },
+    "paz": {
+      "slot1": {
+        "name": "melvorD:flatMagicMaxHit",
+        "value": 2
+      },
+      "slot2": {
+        "name": "melvorD:townshipBuildingCost",
+        "value": -5
+      },
+      "slot3": {
+        "name": "melvorD:summoningChargePreservationChance",
+        "value": 5
+      }
+    },
+    "delt": {
+      "slot1": {
+        "name": "melvorD:agilityObstacleCost",
+        "value": -10
+      },
+      "slot2": {
+        "name": "melvorD:attackInterval",
+        "value": -2
+      },
+      "slot3": {
+        "name": "melvorD:ignoreThievingDamageChance",
+        "value": 7
+      }
+    },
+    "rof": {
+      "slot1": {
+        "name": "melvorD:evasion",
+        "value": 3
+      },
+      "slot2": {
+        "name": "melvorD:skillCostReduction",
+        "value": 2
+      },
+      "slot3": {
+        "name": "melvorD:damageDealtToSlayerTasks",
+        "value": 5
+      }
+    },
+    "tane": {
+      "slot1": {
+        "name": "melvorD:hitpointRegeneration",
+        "value": 10
+      },
+      "slot2": {
+        "name": "melvorD:flatRegenerationInterval",
+        "value": -100
+      },
+      "slot3": {
+        "name": "melvorD:magicLifesteal",
+        "value": 5
+      }
+    },
+    "kep": {
+      "slot1": {
+        "name": "melvorD:flatHPRegen",
+        "value": 1
+      },
+      "slot2": {
+        "name": "melvorD:rolledReflectDamage",
+        "value": 10
+      },
+      "slot3": {
+        "name": "melvorD:lifesteal",
+        "value": 1
+      }
+    },
+    "zala": {
+      "slot1": {
+        "name": "melvorD:poisonLifesteal",
+        "value": 10
+      },
+      "slot2": {
+        "name": "melvorD:burnLifesteal",
+        "value": 10
+      },
+      "slot3": {
+        "name": "melvorD:reflectDamage",
+        "value": 25
+      }
+    }
+  }
+}

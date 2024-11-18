@@ -1,0 +1,262 @@
+.bg-runesmithing-forge {
+  background-color: #519692 !important;
+}
+
+#forge-container > .container {
+  background-color: #232a35;
+  padding: 30px 10px;
+  border-radius: 5px;
+  position: relative; /* Ensure positioning context for SVG */
+  border: 2px solid #666; /* Default border color */
+  transition: border-color 0.5s ease; /* Smooth transition for border color changes */
+}
+
+#forge-container h2 {
+  margin-bottom: 0px;
+}
+
+#forge-container .forge-used {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Border Classes */
+
+/* 1. No Runes Selected: Solid #555 (Default) */
+/* No additional class needed */
+
+/* 2. Only Rune 1 Selected: Solid Cyan */
+.border-cyan {
+  border-color: cyan !important;
+  animation: none;
+}
+
+/* 3. Only Rune 2 Selected: Solid Yellow */
+.border-yellow {
+  border-color: yellow !important;
+  animation: none;
+}
+
+/* 4. Only Rune 3 Selected: Solid Magenta */
+.border-magenta {
+  border-color: magenta !important;
+  animation: none;
+}
+
+/* 5. Rune 1 and Rune 2 Selected: Cyan and Yellow Cycling */
+.border-cyan-yellow {
+  animation: border-cyan-yellow-cycle 4s linear infinite;
+}
+
+/* 6. Rune 2 and Rune 3 Selected: Yellow and Magenta Cycling */
+.border-yellow-magenta {
+  animation: border-yellow-magenta-cycle 4s linear infinite;
+}
+
+/* 7. Rune 1 and Rune 3 Selected: Cyan and Magenta Cycling */
+.border-cyan-magenta {
+  animation: border-cyan-magenta-cycle 4s linear infinite;
+}
+
+/* 8. All Runes Selected: Cyan, Yellow, and Magenta Cycling */
+.border-cyan-yellow-magenta {
+  animation: border-cyan-yellow-magenta-cycle 6s linear infinite;
+}
+
+/* Keyframes for Border Animations */
+
+/* Cyan and Yellow Cycling */
+@keyframes border-cyan-yellow-cycle {
+  0% {
+    border-color: cyan;
+  }
+  50% {
+    border-color: yellow;
+  }
+  100% {
+    border-color: cyan;
+  }
+}
+
+/* Yellow and Magenta Cycling */
+@keyframes border-yellow-magenta-cycle {
+  0% {
+    border-color: yellow;
+  }
+  50% {
+    border-color: magenta;
+  }
+  100% {
+    border-color: yellow;
+  }
+}
+
+/* Cyan and Magenta Cycling */
+@keyframes border-cyan-magenta-cycle {
+  0% {
+    border-color: cyan;
+  }
+  50% {
+    border-color: magenta;
+  }
+  100% {
+    border-color: cyan;
+  }
+}
+
+/* Cyan, Yellow, and Magenta Cycling */
+@keyframes border-cyan-yellow-magenta-cycle {
+  0% {
+    border-color: cyan;
+  }
+  33.33% {
+    border-color: yellow;
+  }
+  66.66% {
+    border-color: magenta;
+  }
+  100% {
+    border-color: cyan;
+  }
+}
+
+/* Ensure the SVG overlay is properly layered */
+#forge-container .forge-ui {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1; /* Above the SVG lines */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#forge-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Allow clicks to pass through */
+  z-index: 0; /* Behind the forge UI */
+}
+
+/* Existing Styles for Forge Slots and Modal */
+#forge-container .forge-slots {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#forge-container .forge-slot {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #333;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgba(100, 100, 100, 0.9);
+  position: relative;
+}
+
+#forge-container .forge-slot img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#forge-container .forge-dropdown {
+  width: 100%;
+  max-width: 300px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+#forge-container .forge-smith-btn {
+  font-size: 24px;
+  margin-top: 50px;
+}
+
+#forge-modal button.close {
+  color: white;
+}
+
+#forge-modal .modal-item {
+  padding: 10px;
+}
+
+#forge-modal .modal-item:hover {
+  cursor: pointer;
+}
+
+#forge-modal .modal-item img {
+  max-width: 64px;
+  max-height: 64px;
+}
+
+#forge-modal .modal-item .item-name {
+  font-size: 14px;
+}
+
+#forge-error-modal .modal-content {
+  border: 2px solid #dc3545; /* Bootstrap's danger color */
+}
+
+#forge-error-modal .modal-header {
+  background-color: #dc3545; /* Match the header with danger color */
+}
+
+#forge-error-modal .modal-footer {
+  background-color: #f8d7da; /* Light background for the footer */
+}
+
+.bank-item[data-item-id*="runesmithing:e"] {
+  position: relative;
+}
+
+.enchantment-overlay {
+  position: absolute !important;
+  top: 20% !important;
+  left: 20% !important;
+  width: 60% !important;
+  height: 60% !important;
+  background: rgba(0, 255, 255, 0.39);
+  animation: color-change 10s linear infinite;
+  pointer-events: none;
+  z-index: 1;
+  filter: blur(10px);
+}
+
+.bank-item[data-item-id*="runesmithing:e"] .bank-img {
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes color-change {
+  0% {
+    background: rgba(0, 255, 255, 0.39);
+  }
+
+  33.33% {
+    background: rgba(255, 0, 255, 0.39);
+  }
+
+  66.66% {
+    background: rgba(255, 255, 0, 0.39);
+  }
+
+  100% {
+    background: rgba(0, 255, 255, 0.39);
+  }
+}
+
+/* Optional: Smooth Transitions for Filter Effects */
+#forge-lines line {
+  transition: stroke 0.5s ease;
+}
