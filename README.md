@@ -1,2 +1,2 @@
 # Runesmithing-public
-Public release for Path of Melvor, a mod for Melvor Idle. Check it out: https://mod.io/g/melvoridle/m/runesmithing
+Public release for Runesmithing, a mod for the game Melvor Idle. Check it out: https://mod.io/g/melvoridle/m/runesmithing
